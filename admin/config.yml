@@ -1,0 +1,124 @@
+# config.yml
+
+backend:
+  name: github
+  repo: pitelank/pitelank.github.io
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+collections:
+  - name: 'blog'
+    label: 'Activity'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'kampanj'
+    label: 'Kampanj'
+    folder: '_kampanj/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'Välkommen'
+        name: 'welcome'
+        file: 'index.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Välkommen' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Om oss'
+        name: 'om-oss'
+        file: 'om-oss.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Om oss' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Arbetssätt'
+        name: 'arbetssatt'
+        file: 'arbetssatt.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Arbetssätt' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Anhöriginformation'
+        name: 'anhorig'
+        file: 'anhorig.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Anhöriginformation' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Idéprogrammet'
+        name: 'ideeprogrammet'
+        file: 'ideeprogrammet.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Idéprogrammet' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Bakgrund'
+        name: 'background'
+        file: 'bakgrund.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Bakgrund' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Medlemskap'
+        name: 'membership'
+        file: 'medlemskap.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Medlemskap' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Kampanjer'
+        name: 'campaign'
+        file: 'kampanj.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Kampanjer' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Minnen'
+        name: 'memories'
+        file: 'minnen.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Minnen' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Stadgar'
+        name: 'stadgar'
+        file: 'stadgar.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Stadgar' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+      - label: 'Kontakt'
+        name: 'contact'
+        file: 'kontakt.markdown'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', default: 'Kontakt' }
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+    

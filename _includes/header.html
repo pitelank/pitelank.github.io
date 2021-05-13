@@ -1,0 +1,31 @@
+<header class="bg-black bg-opacity-70 shadow-xl p-4 w-full">
+    <div class="flex justify-between max-w-screen-2xl mx-auto">
+        <img class="max-h-16" src="/assets/images/logo.png">
+        
+        <nav class="flex">
+            <ul class="flex text-center uppercase">
+                {% for tab in site.tabs %}
+                <li class="dropdown-item block h-full">
+                    <a class="{% if tab.url == page.url %}text-white{% else %}text-gray-400{% endif %} hover:text-gray-200 py-5 px-4 text-lg block"
+                       href="{{ tab.url }}">
+                        {{ tab.title }}
+                    </a>
+		    {% if tab.subpages %}
+		    <ul class="dropdown absolute bg-black bg-opacity-90 z-50 ">
+			{% for page in tab.subpages %}
+                        <li>
+                            <a class="text-gray-200 p-2 block hover:bg-gray-900 bg-opacity-30" href="{{ page.url }}">
+                                {{ page.title }}
+                            </a>
+                        </li>
+			{% endfor %}
+                    </ul>
+		    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <img class="max-h-16" src="/assets/images/logo.png">
+    </div>
+</header>

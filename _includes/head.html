@@ -1,0 +1,48 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+  <style>
+   /**
+    * font-family: 'Goudy Bookletter 1911', serif;
+    * font-family: 'Open Sans', sans-serif;
+    * font-family: 'Raleway', sans-serif;
+    */
+
+   body {
+       font-family: 'Open Sans', sans-serif;
+   }
+   .sans {
+       font-family: 'Raleway', sans-serif;
+   }
+
+   .post-content p {
+       padding-bottom: 1.5rem;
+   }
+
+   .post-content ul {
+       list-style-type: disc;
+       padding-left: 20px;
+       padding-bottom: 1.5rem;
+   }
+
+   .dropdown-item:hover .dropdown {
+       display: block;
+   }
+
+   .dropdown {
+       display: none;
+   }
+  </style>
+
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

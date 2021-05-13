@@ -1,0 +1,77 @@
+---
+title: Aktiviteter
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+    <body class="bg-cover flex bg-center flex-col min-h-screen"
+          style="background-image: url('/assets/images/banner.jpg')">
+
+        {%- include header.html -%}
+
+        <section class="flex-1 justify-center flex">
+
+            <div class="flex w-full justify-center p-8">
+
+                <div>
+
+                    {%- for post in paginator.posts -%}
+                    <article class="mb-6 bg-black bg-opacity-70 text-white shadow-xl text-lg rounded max-w-screen-md ">
+                        
+                        <div class="p-8">
+                            <header class="post-header">
+                                <div class="border-t border-b mb-1"></div>
+                                <div class="border-t border-b mb-5"></div>
+                                <h2 class="text-2xl font-bold tracking-wide uppercase text-center">{{ post.title | escape }}</h2>
+                                <p class="post-meta text-center">
+                                    <time class="dt-published"
+                                          datetime="{{ post.date | date_to_xmlschema }}"
+                                          itemprop="datePublished">
+                                        {%- assign date_format = site.minima.date_format | default: "%Y-%m-%d" -%}
+                                        {{ post.date | date: date_format }}
+                                    </time>
+                                </p>
+                                <div class="border-t border-b mt-4 mb-1"></div>
+                                <div class="border-t border-b mb-5"></div>
+                            </header>
+                            
+                            <div>
+                                {{ post.content }}
+                            </div>
+                        </div>
+                        
+                    </article>
+                    {%- endfor -%}
+
+                    {% if paginator.total_pages > 1 %}
+                    <ul class="flex justify-between">
+                        {% if paginator.previous_page %}
+                        <li>
+                            <a class="py-4 px-8 cursor-pointer bg-black bg-opacity-70 shadow-xl rounded text-white" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Senare</a>
+                        </li>
+                        {% else %}
+                        <li></li>
+                        {% endif %}
+
+                        {% if paginator.next_page %}
+                        <li>
+                            <a class="py-4 px-8 cursor-pointer bg-black bg-opacity-70 shadow-xl rounded text-white" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Äldre</a>
+                        </li>
+                        {% else %}
+                        <li></li>
+                        {% endif %}
+                    </ul>
+                    {% endif %}
+                    
+                </div>
+
+            </div>
+
+        </section>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

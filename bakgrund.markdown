@@ -1,0 +1,13 @@
+---
+layout: page
+title: Bakgrund till Länkarna Piteå
+permalink: /bakgrund/
+---
+
+Någon gång under 60-talet fanns det ett Sällskap i Piteå men som av någon anledning lades ner. Det vet vi eftersom vi fått en del material som är från den tiden, bl a två 78 varvs stenkakor som man spelat in, men som vi inte kunnat lyssna på, så vi vet inte i skrivande stund vad de innehåller. Några brev följde också med. En kopia på ett brev, som var med anledning av att någon i kungahuset krockat med sin bil och man undrar om man inte tog blodprov och kollade nykterheten, eller om alkohol inte syntes i blått blod? Humor hade man och mod.
+
+Eftersom de som startade om är döda, så får vi som kom in lite senare försöka minnas. Vi tror någon gick till socialchefen eller så var det sociala som plockade ihop några som ville starta Länkarna Piteå. Man hade fått tillgång till ett hus på Strömnäsgatan med 2 våningar. Vet att sekreteraren blev tillfrågad eftersom hen var med i övervakarföreningen och att kassören var en på socialkontoret. Så var det bara i början, tills det fanns medlemmar som kunde ta över dessa uppdrag. Man hade så småningom två mer eller mindre anställda, med mycket ideellt arbete. De började dagen med att åka runt till dem som drack och hörde hur det stod till, om det var dags att hjälpa dem till TNE (Tillnyktringsenheten). Det var mest alkohol som gällde då. Det hände att man tog hand om någon som var ”dagen efter” och lät dem ligga på övervåningen och nyktra till under uppsyn.
+
+Verksamheten växte och man fick tillgång till ett hus som Byggnadsfackförbund haft, som stod där Taxi är nu. Då tog man också hand om anhöriga som behövde komma från missbrukande partner, mest kvinnor. De kunde sova över på övervåningen.  När den fastigheten revs, någon gång på 80-talet, flyttade man till en fastighet i Öjebyn där man drev verksamheten. När det huset brann ner, i början på 90-talet, såldes fastigheten och man flyttade i en stor lägenhet på Sundsgatan och köpte en fastighet i Lomträsk. Då hade man en anställd som hade visioner att man skulle ta över Tillnyktrings-enheten, eftersom de stängt. Man skulle ta de som inte klarade av att sluta med droger (alkohol eller knark) upp till Lomträsk och få dem nyktra/drogfria och aktivera dem. Ingen skulle få dö i sin beroendesjukdom utan att Länkarna hade försökt hjälpa dem till ett bättre liv, var tanken. Men de måste naturligtvis ha viljan att sluta. Men när han dog, såldes fastigheten i Lomträsk så småningom. Användes främst som utflyktsmål med övernattning under några år.
+
+Numera finns vi i en 4-rums lägenhet där vi träffas och har samtal, kurser, middagar och fester i den mån vi kan. De flesta utflykter utgår också från lokalen.  Allt bedrivs genom ideellt arbete.

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+    <body class="max-h-screen bg-cover flex h-screen bg-center flex-col overflow-hidden"
+          style="background-image: url('/assets/images/banner.jpg')">
+
+        {%- include header.html -%}
+
+        <section class="flex-1 justify-center flex flex-col max-h-full overflow-hidden">
+
+            <div class="flex w-full justify-center p-8 overflow-none max-h-full overflow-hidden">
+
+                <main class="bg-black bg-opacity-70 text-white shadow-xl text-lg rounded max-w-screen-md max-h-full overflow-y-scroll">
+                    {{ content }}
+                </main>
+
+            </div>
+
+        </section>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
